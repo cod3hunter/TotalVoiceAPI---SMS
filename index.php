@@ -93,7 +93,7 @@
             Mensagem enviada com sucesso
             </span></center>';
             echo "<br>";
-          } elseif ($sucesso == 0) {
+          } elseif ($sucesso == 2) {
             echo '<center><span style="color: red; font-size:20px;">
             Falha ao enviar mensagem tente novamente mais tarde
             </span></center>';
