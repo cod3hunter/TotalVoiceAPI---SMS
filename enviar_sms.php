@@ -14,6 +14,7 @@ $api = new TotalVoiceAPI("8fb839a6d2ab9c3e4901a21dd581b265");
        if (strlen($msg) == 0) { //verifica se a mensagem foi digitada
          echo "mensagem invalida";
          header('Location: index.php?error=725');
+         die();
        }
 
   $api->debugOn(); //Modo debug ativado
