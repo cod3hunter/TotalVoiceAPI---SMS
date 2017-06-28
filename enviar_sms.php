@@ -26,7 +26,7 @@ $api = new TotalVoiceAPI("8fb839a6d2ab9c3e4901a21dd581b265");
   if ($result['status'] == 200) { //Verifica se a mensagem foi enviada com sucesso
       header('Location: index.php?success=1');
   }else { //executa o código abaixo caso não tenha sucesso no envio da mensagem
-      header('Location: index.php?success=0');
+      header('Location: index.php?success=2');
   }
 
 } else { // executa o código abaixo caso o telefone não estaja correto
