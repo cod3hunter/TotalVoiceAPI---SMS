@@ -6,7 +6,7 @@ $telefone_dest = $_POST['telefone']; //Recupera telefone por POST
 $msg = $_POST['msg']; //Recupera mensagem por POST
 
 //Instancia TotalVoiceAPI recebendo como parametro o Token disponivel em https://api.totalvoice.com.br/painel
-$api = new TotalVoiceAPI("8fb839a6d2ab9c3e4901a21dd581b265");
+$api = new TotalVoiceAPI("INSERT_TOKEN");
 
  if (strlen($telefone_dest) >= 10 && // Verifica se os campos
      strlen($telefone_dest) <= 11){ // foram preenchidos corretamente
